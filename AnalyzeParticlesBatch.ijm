@@ -100,7 +100,7 @@ function AnalPart() {
 	if(watershed==1) {
 		run("Watershed");
 	}
-	run("Analyze Particles...", "exclude add summarize");
+	run("Analyze Particles...", "exclude add summarize stack");
 	close(); // closing visualisation of ROIs
 	selectWindow(title2);
 	roiManager("deselect");
